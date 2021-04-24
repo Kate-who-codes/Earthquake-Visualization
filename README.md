@@ -1,4 +1,4 @@
-# leaflet-challenge
+# Leaflet-challenge
 
 ### USGS-Earthquakes-Visualization
 # Basic Visualization
