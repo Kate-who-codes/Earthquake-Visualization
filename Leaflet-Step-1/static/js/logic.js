@@ -118,14 +118,15 @@ function createMap(earthquakes) {
 
 
   // Adds Legend
-    let legend = L.control({position: 'bottomright'});
+    var legend = L.control({position: 'bottomright'});
     legend.onAdd = function(myMap) {
-      let div = L.DomUtil.create('div', 'legend'),
-        grades = [0, 1, 2, 3, 4, 5],
-        labels = ["0-1", "1-2", "2-3", "3-4", "4-5", "5+"];
+      var div = L.DomUtil.create('div', 'legend'),
+        grades = ["-10-10", "10-30", "30-50", "50-70", "70-90", "90+"],
+        labels = ["-10-10", "10-30", "30-50", "50-70", "70-90", "90+"];
+        colors = ["green", "greenyellow", "yellowgreen", "yellow", "orange", "red"];
 
-           for (let i = 0; i < grades.length; i++) {
-             div.innerHTML += '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+           for (var i = 0; i < grades.length; i++) {
+             div.innerHTML += '<i style="background:' + colors[i]  + '"></i> ' +
               grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
             }
 
