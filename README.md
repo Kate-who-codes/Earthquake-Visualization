@@ -6,10 +6,10 @@
 ### USGS-Earthquakes-Visualization
 https://www.usgs.gov/
 
+![leaflet3](https://user-images.githubusercontent.com/68763904/127591819-2eb31534-9ce5-42f3-b0a7-35f1240d1c42.PNG)
 
 
 
-![leaflet_2](https://user-images.githubusercontent.com/68763904/127591614-959922a7-a6ef-4eb9-840f-811628d2fab5.PNG)
 
 
 
@@ -17,10 +17,14 @@ https://www.usgs.gov/
 # Basic Visualization
 
 
+![leaflet_2](https://user-images.githubusercontent.com/68763904/127591674-4b587946-0b69-49fb-808b-3d3a4d0ffc83.PNG)
+
+
 
 Data is taken from USGS which provides earthquake data in a number of different formats, updated every 5 minutes
 The URL of JSON is used to pull in the data for our visualization
 
+![leaflet4](https://user-images.githubusercontent.com/68763904/127591850-d715f78c-39c3-473c-a9c1-c969b29ca89f.PNG)
 
 
 
