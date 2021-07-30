@@ -9,11 +9,19 @@ https://www.usgs.gov/
 
 
 
+![leaflet_2](https://user-images.githubusercontent.com/68763904/127591614-959922a7-a6ef-4eb9-840f-811628d2fab5.PNG)
+
+
+
+
 # Basic Visualization
+
 
 
 Data is taken from USGS which provides earthquake data in a number of different formats, updated every 5 minutes
 The URL of JSON is used to pull in the data for our visualization
+
+
 
 
 
