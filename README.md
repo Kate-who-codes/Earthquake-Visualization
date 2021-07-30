@@ -30,3 +30,4 @@ Import & Visualize the Data:
 5.Creating a legend that provides context for a map data.
 
 
+![leaflet](https://user-images.githubusercontent.com/68763904/127591535-80d08de6-0d55-42ae-b973-36a9ad6da761.PNG)
