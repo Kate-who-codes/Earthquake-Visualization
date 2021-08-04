@@ -1,4 +1,4 @@
-# Earthquake Watch
+# Earthquake Visualization
 # Leaflet-challenge
 
 
